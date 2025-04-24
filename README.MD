@@ -26,3 +26,19 @@ pip install awscli
 
 - aws configure
 
+
+## Image Generation 
+
+# 🇮🇳 India's 1000-Year Transformation - 4K Image Generation with Stable Diffusion XL
+
+This Python script generates a **4K HD AI-generated image** of India depicting its **dynamic transformation over the past 1000 years** using **Stable Diffusion XL** via **AWS Bedrock**.
+
+## 📸 Features
+
+- Prompts a generative AI model to create a historical-themed high-resolution image of India.
+- Uses Stability AI's `stable-diffusion-xl-v0` model through AWS Bedrock.
+- Saves the resulting image to your local filesystem.
+- Fully automated image generation pipeline with configurable prompt, resolution, and steps.
+
+-- output/generated-img.png
+
