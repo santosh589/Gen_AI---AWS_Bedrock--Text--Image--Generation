@@ -14,18 +14,6 @@ This Python script uses AWS Bedrock with the `meta.llama2-70b-chat-v1` and `ai21
 - Boto3
 - AWS credentials with access to Bedrock
 
-## Installation
-
-Install required dependencies:
-
-```bash
-pip install boto3
-pip install awscli
-
-## Configure your AWS credentials (e.g., via AWS CLI or environment variables):
-
-- aws configure
-
 
 ## Image Generation 
 
@@ -41,4 +29,19 @@ This Python script generates a **4K HD AI-generated image** of India depicting i
 - Fully automated image generation pipeline with configurable prompt, resolution, and steps.
 
 -- output/generated-img.png
+
+## Installation
+
+Install required dependencies:
+
+```bash
+pip install boto3
+pip install awscli
+
+## Configure your AWS credentials (e.g., via AWS CLI or environment variables):
+
+- aws configure
+
+
+
 
